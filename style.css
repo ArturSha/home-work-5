@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  justify-content: space-between;
+}
+.header-logo {
+  display: flex;
+  margin: 25px 150px;
+  align-items: center;
+}
+.header-logo__jpg {
+  width: 40px;
+  height: 40px;
+}
+.header-logo__text {
+  font-size: 18px;
+  font-weight: bolder;
+  margin-left: 5px;
+}
+.header-nav-list {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  color: #666666;
+}
+.header-nav-item {
+  padding: 5px 15px;
+}
+.header-nav-item.--color {
+  /* border: 1px solid black; Как оказалось, закруглять фон можно и без добавления границ, верно ли это? */
+  border-radius: 4px;
+  background-color: #222222;
+  color: white;
+  margin-right: 145px;
+}
