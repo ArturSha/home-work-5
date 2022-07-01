@@ -1,7 +1,8 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
 .header {
-  /* display: flex;
-  align-items: center; */
-  width: 100%;
+  /* width: 100%; нужно ли и зачем?*/
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 .header-container {
@@ -10,25 +11,23 @@
   align-items: center;
   max-width: 1200px;
   justify-content: space-between;
-  width: 80%;
 }
 .header-logo {
   display: flex;
   align-items: center;
-  /* margin-left: 32px; */
 }
 .header-logo__jpg {
   width: 40px;
   height: 40px;
 }
-.header-logo__text {
+.header-logo__link {
   margin-left: 5px;
   text-decoration: none;
   color: black;
   font-size: 16px;
   font-weight: 800;
 }
-.header-logo__text:hover {
+.header-logo__link:hover {
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
@@ -50,7 +49,7 @@
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   color: #666666;
-  padding: 10px 16px;
+  padding: 12px 16px;
   font-size: 15px;
 }
 .header-nav-link:hover {
@@ -64,7 +63,7 @@
   border-radius: 4px;
   background-color: #222222;
   color: white;
-  margin: 25px 0px;
+  margin: 25px 3px;
   padding: 11px 25px;
   letter-spacing: 2px;
   border: 1px solid black;
@@ -74,12 +73,51 @@
   color: black;
   border: 1px solid #666666;
 }
-.section-logo {
+.section-intro {
+  max-width: 1168px;
+  margin: 0px auto;
   display: flex;
   align-items: center;
   flex-direction: row;
+  justify-content: space-around;
+  color: #222222;
 }
-.section-logo__jpg {
+
+.div-intro {
+  margin-right: 200px;
+}
+.logo-intro {
+  display: flex;
+  align-items: center;
+}
+.logo-intro__jpg {
   width: 64px;
   height: 64px;
+}
+.header-logo__link.-intro {
+  font-size: 22px;
+  align-self: center;
+}
+.h2-intro {
+  font-size: 54px;
+  font-weight: 400;
+}
+.p-intro {
+  font-size: 16px;
+}
+
+.pic-intro__jpg {
+  position: relative;
+  z-index: 1;
+  width: 376px;
+  height: 548px;
+  margin-top: 100px;
+}
+.pic-intro-wp {
+  width: 324px;
+  height: 524px;
+  position: absolute;
+  right: 262px;
+  top: 221.5px;
+  z-index: 0;
 }
