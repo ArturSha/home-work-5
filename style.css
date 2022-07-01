@@ -1,38 +1,85 @@
 .header {
-  display: flex;
-  margin: 0 auto;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
+  width: 100%;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+.header-container {
+  display: flex;
+  margin: 0px auto;
+  align-items: center;
+  max-width: 1200px;
   justify-content: space-between;
+  width: 80%;
 }
 .header-logo {
   display: flex;
-  margin: 25px 150px;
   align-items: center;
+  /* margin-left: 32px; */
 }
 .header-logo__jpg {
   width: 40px;
   height: 40px;
 }
 .header-logo__text {
-  font-size: 18px;
-  font-weight: bolder;
   margin-left: 5px;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 800;
 }
-.header-nav-list {
-  font-family: "Poppins", sans-serif;
+.header-logo__text:hover {
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(
+    134.6deg,
+    #d140f8 -3.11%,
+    #788ce9 33.98%,
+    #37c2de 66.35%,
+    #1eccae 98.49%
+  );
+}
+
+.header-navigation {
   display: flex;
-  flex-direction: row;
-  font-size: 14px;
+  align-items: center;
+}
+
+.header-nav-link {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
   color: #666666;
+  padding: 10px 16px;
+  font-size: 15px;
 }
-.header-nav-item {
-  padding: 5px 15px;
+.header-nav-link:hover {
+  background-color: #666666;
+  color: white;
+  transition: background-color 0.3s;
 }
-.header-nav-item.--color {
-  /* border: 1px solid black; Как оказалось, закруглять фон можно и без добавления границ, верно ли это? */
+
+.header-nav-button {
+  font-size: 15px;
   border-radius: 4px;
   background-color: #222222;
   color: white;
-  margin-right: 145px;
+  margin: 25px 0px;
+  padding: 11px 25px;
+  letter-spacing: 2px;
+  border: 1px solid black;
+}
+.header-nav-button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid #666666;
+}
+.section-logo {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.section-logo__jpg {
+  width: 64px;
+  height: 64px;
 }
