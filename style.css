@@ -589,3 +589,27 @@ h3 + p {
 .p-faq-questions.--padding {
   padding-top: 8%;
 }
+footer {
+  text-align: center;
+  max-width: 1440px;
+}
+.p-16px.--grey {
+  color: #b1b1b1;
+  padding-bottom: 5%;
+}
+.p-16px.--grey span {
+  color: #666666;
+}
+.footer-logo-img {
+  width: 5%;
+  padding: 6% 0 0;
+}
+.header-logo__link.--footer {
+  font-size: 26px;
+}
+.footer-div-socialmedia-img {
+  padding: 1%;
+}
+.footer-div-socialmedia-img img {
+  padding: 0 10px;
+}
