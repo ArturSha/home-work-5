@@ -86,6 +86,9 @@ main {
   color: #222222;
   padding: 10% 0 0 0;
 }
+.section-features p {
+  padding: 0 2% 0 2%;
+}
 
 .logo-intro {
   display: flex;
@@ -123,7 +126,6 @@ main {
   align-items: center;
   width: 100%;
   height: 100%;
-  max-width: 1440px;
   padding-bottom: 5%;
   color: #ffffff;
   background-color: #222222;
@@ -205,4 +207,385 @@ h3 + p {
 }
 .h3-features-focus {
   color: #b25df8;
+}
+
+.section-stat {
+  background-color: #ff5437;
+  display: flex;
+  justify-content: space-around;
+  padding: 0% 4% 0 4%;
+}
+
+.div-stat {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 3% 0%;
+}
+.div-stat p:nth-child(1) {
+  font-size: 95px;
+  color: #ffffff;
+}
+.div-stat p:nth-child(2) {
+  font-size: 14px;
+  color: #ffffff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.section-technology {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10% 0 0 0;
+}
+
+.section-technology h2 {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.div-technology {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 8% 0 0 0;
+}
+.div-technology :nth-child(2) {
+  font-size: 32px;
+  line-height: 36px;
+}
+.div-technology :nth-child(3) {
+  font-size: 16px;
+  color: #666666;
+  padding-top: 15px;
+}
+
+.section-technology-img-wrap {
+  max-width: 376px;
+  max-height: 520px;
+  overflow: hidden;
+}
+
+.section-speed_and_security {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10% 0 0 5%;
+}
+.security_pic_cont {
+  max-width: 376px;
+  max-height: 520px;
+  overflow: hidden;
+}
+.section-speed_and_security h2 {
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+.div-security {
+  width: 30%;
+  padding-top: 10%;
+}
+
+.h2-security + p {
+  font-size: 32px;
+  line-height: 36px;
+  padding-top: 10px;
+}
+.div-security :nth-child(3) {
+  padding-top: 15px;
+  font-size: 16px;
+  color: #666666;
+}
+
+.section-darkmode {
+  display: flex;
+  justify-content: center;
+  background-color: #222222;
+  padding-top: 5%;
+}
+.section-darkmode h3 {
+  color: #ffffff;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.div-text-darkmode {
+  width: 40%;
+}
+.p-darkmode-first {
+  color: #ffffff;
+  font-size: 32px;
+}
+.p-darkmode-second {
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+}
+.div-darkmode-img {
+  display: flex;
+  justify-content: center;
+}
+.hr-darkmode {
+  color: #e5e5e5;
+  height: 2px;
+}
+.div-conteiner-sunmoon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-darkmode-light {
+  font-size: 20px;
+}
+.div-conteiner-sunmoon h5 {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+}
+.div-conteiner-sunmoon div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7%;
+}
+
+.section-pricing {
+  text-align: center;
+  margin-bottom: 5%;
+}
+.section-pricing h6 {
+  padding-top: 10%;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+.p-pricing-plan {
+  font-size: 32px;
+}
+.p-pricing-text {
+  font-size: 18px;
+  color: #666666;
+  padding: 0 27% 4% 27%;
+}
+.div-pricing-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.div-pricing-plans {
+  width: 30%;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  border: 2px solid #92242400;
+}
+.div-pricing-plans :nth-child(1) {
+  font-size: 18px;
+  padding-top: 17%;
+}
+.div-pricing-plans :nth-child(2) {
+  font-size: 108px;
+  /* как поступать с размерами? если задавать большие размеры в пикселях, при увеличении экрана, они занимают очень много пространства. если через VW то при уменьшени он налазит на другой текст */
+  /* font-size: 9vw; */
+  line-height: 124px;
+  letter-spacing: 8px;
+}
+.div-pricing-plans :nth-child(3) {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  padding-top: 8%;
+}
+.div-pricing-plans :nth-child(4) {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  padding: 10px 25px;
+  margin: 6% 0 17% 0;
+}
+
+.p-pracing-monthly.--color {
+  color: black;
+}
+.p-pricing-standart {
+  color: #0278ed;
+}
+.p-pricing-premium {
+  color: #ff5437;
+}
+.p-pricing-lifetime {
+  color: #ff9209;
+}
+.div-pricing-plans.--standart button {
+  background-color: #0278ed;
+  border-radius: 4px;
+  border: 3px solid #0278ed;
+}
+.div-pricing-plans.--standart button:hover {
+  border: 3px solid #4495e7;
+}
+.div-pricing-plans.--premium button {
+  background-color: #ff5437;
+  border-radius: 4px;
+  border: 3px solid #ff5437;
+}
+.div-pricing-plans.--premium button:hover {
+  border: 3px solid #fe6a50;
+}
+.div-pricing-plans.--lifetime button {
+  background-color: #ff9209;
+  border-radius: 4px;
+  border: 3px solid #ff9209;
+}
+.div-pricing-plans.--lifetime button:hover {
+  border: 3px solid #f9a339;
+}
+
+.div-pricing-plans.--standart:hover {
+  border: 2px solid #0278ed;
+}
+.div-pricing-plans.--premium:hover {
+  border: 2px solid #ff5437;
+}
+.div-pricing-plans.--lifetime:hover {
+  border: 2px solid #ff9209;
+}
+.section-testimonials {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding-bottom: 5%;
+}
+.h4-14px {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  padding-top: 5%;
+}
+.p-32px {
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #222222;
+}
+.p-18px.--grey {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #666666;
+}
+.p-16px {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.p-18px.--testimonials-padding {
+  padding: 1% 0 2% 0;
+}
+
+.div-testimonials-conteiner {
+  display: flex;
+  justify-content: center;
+}
+
+.div-testimonials-cards {
+  background-color: #ffffff;
+  border-radius: 20px;
+  width: 26%;
+  padding: 2% 2% 2% 2%;
+  text-align: start;
+  margin: 0 1%;
+}
+.div-testimonials-pic-cont {
+  display: flex;
+  align-items: center;
+  padding: 5% 0 0 0;
+}
+.div-testimonials-pic-cont.--3rd {
+  padding-top: 13%;
+}
+.p-testimonials-names {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  padding-left: 5px;
+}
+.p-testimonials-DM {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  padding-left: 5px;
+}
+
+.section-download {
+  text-align: center;
+  padding: 5% 29% 9%;
+}
+.div-download-button-cont {
+  display: flex;
+  justify-content: center;
+}
+.button-download-appstore {
+  display: flex;
+  background-color: #000000;
+  color: white;
+  border: 2px solid #a6a6a6;
+  border-radius: 15px;
+  padding: 5px 10px;
+  justify-content: space-between;
+}
+.span-download-button-text {
+  font-size: 16px;
+  padding-left: 5px;
+}
+.download-img-apple {
+  padding-top: 6px;
+}
+.p-18px.--download {
+  padding: 2% 0 4%;
+}
+
+.section-faq {
+  background-color: #e5e5e5;
+  padding: 5%;
+}
+.h1-faq {
+  font-size: 32px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 36px;
+  padding-bottom: 1%;
+}
+.h1-faq + p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+}
+.section-div-box {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: flex-end; */
+}
+.div-cont-faq {
+  width: 44%;
+}
+.p-faq-questions {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 4% 0;
+}
+
+.div-cont-faq.--second {
+  padding-top: 4.5%;
+}
+.p-faq-questions.--padding {
+  padding-top: 8%;
 }
