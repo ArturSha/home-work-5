@@ -98,6 +98,7 @@ main {
   width: 64px;
   height: 64px;
 }
+
 .header-logo__link.-intro {
   font-size: 22px;
   align-self: center;
@@ -148,10 +149,11 @@ main {
 }
 .features-span__rotated {
   display: inline-block;
+  transition: 0.5s;
 }
 .features-span__rotated:hover {
   transform: rotateY(360deg);
-  transition: 0.5s;
+  transition: 1s;
 }
 
 .card-wrap {
@@ -176,6 +178,9 @@ main {
   left: 50%;
   transform: translateY(-50%);
   transform: translateX(-50%);
+}
+.div-features-absolute-img img {
+  transition: 0.5s;
 }
 .div-features-absolute-img img:hover {
   border-radius: 50px;
